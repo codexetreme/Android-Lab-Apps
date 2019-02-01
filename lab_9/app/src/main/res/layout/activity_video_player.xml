@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="gears.com.lab_app_9_media.VideoPlayer">
+
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoPlayer"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:src="@android:drawable/ic_media_rew"
+            android:id="@+id/vid_back_btn"
+            android:onClick="onVideoControlClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+
+            android:src="@android:drawable/ic_media_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onVideoControlClick"
+            android:id="@+id/vid_play_btn"
+            />
+        <ImageButton
+            android:src="@android:drawable/ic_media_pause"
+            android:id="@+id/vid_pause_btn"
+            android:onClick="onVideoControlClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:src="@android:drawable/ic_media_ff"
+            android:id="@+id/vid_forward_btn"
+            android:onClick="onVideoControlClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

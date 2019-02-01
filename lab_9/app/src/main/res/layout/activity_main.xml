@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gears.com.lab_app_9_media.MainActivity">
+
+
+
+    <SeekBar
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/seek"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:src="@android:drawable/ic_media_rew"
+            android:text="Pause"
+            android:onClick="onClick"
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+
+            android:src="@android:drawable/ic_media_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play_btn"
+            />
+        <ImageButton
+            android:src="@android:drawable/ic_media_pause"
+            android:text="Pause"
+            android:id="@+id/pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:src="@android:drawable/ic_media_ff"
+            android:text="Pause"
+            android:id="@+id/forward_btn"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Video Player"
+        android:onClick="onClick"
+        android:layout_gravity="center"
+        android:id="@+id/video"
+        />
+
+</LinearLayout>

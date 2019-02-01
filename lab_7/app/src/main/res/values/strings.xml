@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab_app_7</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first">Reload</string>
+    <string name="second">Like</string>
+    <string name="third">Third</string>
+    <string-array name="exchanges">
+        <item>Coinbase</item>
+        <item>Poloniex</item>
+    </string-array>
+    <string name="submit">Submit</string>
+    <string name="add">ADD</string>
+    <string name="add_currency">Add new currency</string>
+    <string name="price">Price</string>
+    <string name="clear">Clear</string>
+    <string name="swap">Swap data</string>
+    <string name="settings">Settings</string>
+</resources>
